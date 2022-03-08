@@ -10,6 +10,8 @@ int main()
 	if (src.empty())
 	{
 		printf("could not load image");//如果图片不存在 将无法读取，打印到终端。
+		cout << "could not load image.\n";
+		return -1;
 	}
 	//超过屏幕的图像无法显示时候调用此函数。
 	namedWindow("输入窗口", WINDOW_FREERATIO);//创建了一个新窗口，参数1表示名称，第二个参数代表一个自由的比例
