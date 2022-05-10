@@ -7,7 +7,6 @@ using namespace std;
 using namespace cv;
 int main()
 {
-	std::cout << "Hello World!\n";
 	VideoCapture capture(0);    // 打开摄像头
 	if (!capture.isOpened())    // 判断是否打开成功
 	{

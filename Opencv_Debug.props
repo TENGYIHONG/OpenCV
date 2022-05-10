@@ -3,7 +3,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <IncludePath>E:\VS2019_OpenCV\2.cvtColor;D:\Program Files %28x86%29\OpenCV\opencv\build\include\opencv2;D:\Program Files %28x86%29\OpenCV\opencv\build\include;$(IncludePath)</IncludePath>
+    <IncludePath>E:\VS2019_OpenCV\10.Video\resources;E:\VS2019_OpenCV\2.cvtColor;D:\Program Files %28x86%29\OpenCV\opencv\build\include\opencv2;D:\Program Files %28x86%29\OpenCV\opencv\build\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\Program Files %28x86%29\OpenCV\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup>

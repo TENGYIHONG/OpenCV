@@ -22,8 +22,9 @@ int main()
 		Mat frame;
 		video >> frame;    // 读取图像帧至frame
 		if(!frame.empty())	// frame是否为空
-		{
+		{                                                                                                                                                                                                                                                                                                                      
 			imshow("video", frame);    // 显示图像
+
 		}
  
 		if(waitKey(30) > 0)		// delay 30 ms 等待是否按键
@@ -31,12 +32,7 @@ int main()
 			break;
 		}
 	}
- 
     return 0;
-
-
-
-
 }
 
 
